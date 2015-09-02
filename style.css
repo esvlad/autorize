@@ -1,0 +1,43 @@
+/* Авторизация через соц. сети */
+
+span.socauth{
+	background:url(img/spritesocial.gif);
+	margin-left:5px;
+	display:block;
+	height:42px;
+	width:40px;
+	float:left;
+	cursor:pointer;
+}
+
+span.sa1{
+	background-position:0px 0px;
+}
+
+span.sa1:hover{
+	background-position:0px 42px;
+}
+
+span.sa2{
+	background-position:128px 0px;
+}
+
+span.sa2:hover{
+	background-position:128px 42px;
+}
+
+span.sa3{
+	background-position:84px 0px;
+}
+
+span.sa3:hover{
+	background-position:84px 42px;
+}
+
+span.sa4{
+	background-position:40px 0px;
+}
+
+span.sa4:hover{
+	background-position:40px 42px;
+}
