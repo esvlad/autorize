@@ -22,15 +22,15 @@ function doLogin(a) {
   var win;
 	if(a==1){
   var redirect_uri = 'http://www.gorobzor.ru/?a=1';
-  var url = 'http://oauth.vkontakte.ru/authorize?client_id=4607239&display=popup&redirect_uri=' + redirect_uri;
+  var url = 'http://oauth.vkontakte.ru/authorize?client_id='ключ_приложения'&display=popup&redirect_uri=' + redirect_uri;
 	}
 	else if(a==2){
   var redirect_uri = 'http://www.gorobzor.ru/?a=2';
-  var url = 'https://oauth.yandex.ru/authorize?client_id=c8e0e13aaef14668852dcf9a022ce4ec&display=popup&response_type=code&redirect_uri=' + redirect_uri;	
+  var url = 'https://oauth.yandex.ru/authorize?client_id='ключ_приложения'&display=popup&response_type=code&redirect_uri=' + redirect_uri;	
 	}
 	else if(a==3){
   var redirect_uri = 'http://www.gorobzor.ru/?a=3';
-  var url = 'https://www.facebook.com/dialog/oauth?client_id=932832843403457&response_type=code&scope=email,user_birthday&redirect_uri=' + redirect_uri;	
+  var url = 'https://www.facebook.com/dialog/oauth?client_id='ключ_приложения'&response_type=code&scope=email,user_birthday&redirect_uri=' + redirect_uri;	
 	}
   var nowuri = 'http://www.gorobzor.ru/';
   var uri_regex = new RegExp(nowuri);
